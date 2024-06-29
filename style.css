@@ -98,8 +98,9 @@ font-family: var(--font-principal);
 
 /* TODO AUIDO */
 .audiodiv {
-    width: 60px;
-    height: 60px;
+    
+    width: 64px;
+    height: 64px;
     position: fixed;
     top: 20px;
     right: 20px;
