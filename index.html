@@ -16,12 +16,12 @@
 </head>
 <body>
     
-<!-- Flecha de volver al inicio -->
+<!-- Flecha de volver al inicio 
 <div id="scroll-to-top">
     <a href="#inicio">
     <img src="./img/arrow.png" alt="Volver al inicio">
     </a>
-</div>
+</div>-->
 
     <header>
        <div class="informacionbanner">
@@ -206,7 +206,14 @@
         <img src="./img/je1.png" alt="">
         <p>07.09.2024</p>
     </div>
-
+    <div class="audiodiv">
+        <audio id="myAudio" preload="none">
+            <source src="./yellow-lyrics.mp3" type="audio/mpeg">
+        </audio>
+        <div id="playPauseBtn" class="play">
+            <img src="./img/notamusical.png" alt="Icono de música">
+        </div>
+      </div>
  
 <footer>
     <div class="contenido">
@@ -227,12 +234,12 @@
     </div>
     
  </footer>
-
+ <script src="reproductor.js"></script>
     <script src="./countdown.js/simplyCountdown.min.js"></script>
     <script src="./countdown.js/countdown.js"></script>
 
 <!-- Script para el desplazamiento suave -->
-<!-- Script para el desplazamiento suave -->
+<!-- Script para el desplazamiento suave 
 <script>
     // Espera a que se cargue el DOM
     document.addEventListener("DOMContentLoaded", function () {
@@ -279,7 +286,7 @@
       }
     });
   </script>
-
+-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
